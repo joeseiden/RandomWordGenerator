@@ -1,10 +1,9 @@
 class SyllableGenerator
 
   def initialize(consonants, vowels, structure="CV")
-    # Write a method to validate all of these and raise an error instead of just having nil instance variables
-    @structure = structure #if structure.is_a?(String) && structure =~ /^[C]*[V]+[C]*$/
+    @structure = structure
     @consonants = consonants
-    @vowels = vowels #if vowels.is_a?(Array)
+    @vowels = vowels
 
     @onset_count = calculate_onset_count
     @nucleus_count = calculate_nucleus_count
