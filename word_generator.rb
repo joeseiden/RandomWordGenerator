@@ -1,4 +1,4 @@
-require_relative "word_generator"
+require_relative "syllable_generator"
 
 class WordGenerator
 
