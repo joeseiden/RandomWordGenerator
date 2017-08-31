@@ -24,6 +24,6 @@ This represents the maximum number of syllables per word. Generated words will h
 
 ## Future Directions
 
-- [ ] Validate inputs to prevent problems with garbage input.
+- [X] Validate inputs to prevent problems with garbage input.
 - [ ] Allow groups of consonants/vowels and more syllable types for more granular control over generated words/syllables.
 - [ ] Create another class that takes in phonological rules and applies them to generated words for more natural sounding words.
